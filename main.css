@@ -23,7 +23,7 @@ p{
 
 /* End General Values */
 /* Start Card */
-.parent{
+.content{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -33,7 +33,7 @@ p{
     border-radius:10px;
 }
 
-.parent .container{
+.content .container{
     display: grid;
     grid-template-columns: repeat(2 , 450px) ;
     column-gap:50px;
@@ -140,7 +140,7 @@ footer a:last-child{
         margin-top: 50px;
     }
     
-    .parent .container{
+    .content .container{
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
